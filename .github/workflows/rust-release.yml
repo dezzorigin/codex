@@ -2117,7 +2117,7 @@ jobs:
       # Keep dependencies explicit because its cargo-binstall@main reference
       # violates the policy requiring full commit SHA action pins.
       - name: Install cargo-binstall
-        uses: cargo-bins/cargo-binstall@b874e25ea559687bec77e281e9b271aa1367b624 # v1.23.0
+        uses: cargo-bins/cargo-binstall@81df5c23b0dc775b009efdfc9895c5965b7a4e40 # v1.26.1
         with:
           version: "1.23.0"
         env:
